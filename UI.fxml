@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="794.0" prefWidth="827.0" style="-fx-background-color: azure;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui_manager.MainSceneController">
+   <children>
+      <ScrollPane layoutX="524.0" maxHeight="974.0" maxWidth="614.0" prefHeight="794.0" prefWidth="270.0" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="-5.0" AnchorPane.topAnchor="0.0">
+         <content>
+            <Pane maxHeight="1000.0" maxWidth="1000.0" prefHeight="794.0" prefWidth="262.0" style="-fx-background-color: grey;">
+               <children>
+                  <Pane layoutX="38.0" layoutY="37.0" maxHeight="190.0" maxWidth="526.0" prefHeight="137.0" prefWidth="181.0" style="-fx-background-color: lightgrey; -fx-border-color: black; -fx-background-radius: 20; -fx-border-radius: 20;">
+                     <children>
+                        <Button fx:id="btnElevator1Int5" layoutX="14.0" layoutY="20.0" mnemonicParsing="false" onAction="#E1IntF5" prefHeight="25.0" prefWidth="24.0" style="-fx-background-radius: 20;" text="5" />
+                        <Button fx:id="btnElevator1Int3" layoutX="13.0" layoutY="60.0" mnemonicParsing="false" onAction="#E1IntF3" prefHeight="25.0" prefWidth="24.0" style="-fx-background-radius: 20;" text="3" />
+                        <Button fx:id="btnElevator1Int1" layoutX="13.0" layoutY="99.0" mnemonicParsing="false" onAction="#E1IntF1" prefHeight="25.0" prefWidth="24.0" style="-fx-background-radius: 20;" text="1" />
+                        <Button fx:id="btnElevator1Int6" layoutX="52.0" layoutY="21.0" mnemonicParsing="false" onAction="#E1IntF6" prefHeight="25.0" prefWidth="24.0" style="-fx-background-radius: 20;" text="6" />
+                        <Button fx:id="btnElevator1Int4" layoutX="51.0" layoutY="60.0" mnemonicParsing="false" onAction="#E1IntF4" prefHeight="25.0" prefWidth="24.0" style="-fx-background-radius: 20;" text="4" />
+                        <Button fx:id="btnElevator1Int2" layoutX="51.0" layoutY="99.0" mnemonicParsing="false" onAction="#E1IntF2" prefHeight="25.0" prefWidth="24.0" style="-fx-background-radius: 20;" text="2" />
+                        <Button layoutX="104.0" layoutY="20.0" mnemonicParsing="false" onAction="#E1IntOpen" style="-fx-background-radius: 20;" text="OPEN" />
+                        <Button layoutX="104.0" layoutY="60.0" mnemonicParsing="false" onAction="#E1IntClose" style="-fx-background-radius: 20;" text="CLOSE" />
+                        <Button layoutX="104.0" layoutY="99.0" mnemonicParsing="false" onAction="#E1IntFire" style="-fx-background-radius: 20;" text="FIRE" />
+                     </children>
+                  </Pane>
+                  <Pane layoutX="34.0" layoutY="219.0" prefHeight="145.0" prefWidth="192.0" style="-fx-background-color: lightgrey; -fx-border-color: black; -fx-background-radius: 20; -fx-border-radius: 20;">
+                     <children>
+                        <Button fx:id="btnElevator2Int5" layoutX="14.0" layoutY="20.0" mnemonicParsing="false" onAction="#E2IntF5" prefHeight="25.0" prefWidth="24.0" style="-fx-background-radius: 20;" text="5" />
+                        <Button fx:id="btnElevator2Int3" layoutX="13.0" layoutY="60.0" mnemonicParsing="false" onAction="#E2IntF3" prefHeight="25.0" prefWidth="24.0" style="-fx-background-radius: 20;" text="3" />
+                        <Button fx:id="btnElevator2Int1" layoutX="13.0" layoutY="99.0" mnemonicParsing="false" onAction="#E2IntF1" prefHeight="25.0" prefWidth="24.0" style="-fx-background-radius: 20;" text="1" />
+                        <Button fx:id="btnElevator2Int6" layoutX="52.0" layoutY="20.0" mnemonicParsing="false" onAction="#E2IntF6" prefHeight="25.0" prefWidth="24.0" style="-fx-background-radius: 20;" text="6" />
+                        <Button fx:id="btnElevator2Int4" layoutX="51.0" layoutY="60.0" mnemonicParsing="false" onAction="#E2IntF4" prefHeight="25.0" prefWidth="24.0" style="-fx-background-radius: 20; -fx-border-radius: 20;" text="4" />
+                        <Button fx:id="btnElevator2Int2" layoutX="51.0" layoutY="99.0" mnemonicParsing="false" onAction="#E2IntF2" prefHeight="25.0" prefWidth="24.0" style="-fx-background-radius: 20; -fx-border-radius: 20;" text="2" />
+                        <Button layoutX="104.0" layoutY="20.0" mnemonicParsing="false" onAction="#E2IntOpen" style="-fx-background-radius: 20; -fx-border-radius: 20;" text="OPEN" />
+                        <Button layoutX="104.0" layoutY="60.0" mnemonicParsing="false" onAction="#E2IntClose" style="-fx-background-radius: 20; -fx-border-radius: 20;" text="CLOSE" />
+                        <Button layoutX="104.0" layoutY="99.0" mnemonicParsing="false" onAction="#E2IntFire" style="-fx-background-radius: 20;" text="FIRE" />
+                     </children>
+                  </Pane>
+                  <Label layoutX="55.0" layoutY="11.0" text="ELEVATOR 1" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Black" size="21.0" />
+                     </font></Label>
+                  <Pane layoutX="13.0" layoutY="400.0" prefHeight="235.0" prefWidth="234.0" style="-fx-background-color: lightgrey; -fx-border-color: black; -fx-background-radius: 20; -fx-border-radius: 20;">
+                     <children>
+                        <Pane fx:id="paneGen" layoutX="125.0" layoutY="122.0" prefHeight="100.0" prefWidth="100.0" style="-fx-border-color: black; -fx-background-color: grey; -fx-background-radius: 20; -fx-border-radius: 20;">
+                           <children>
+                              <ImageView fitHeight="58.0" fitWidth="82.0" layoutX="7.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@resoruces/generator.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                        <Pane fx:id="paneNoti" layoutX="125.0" layoutY="13.0" prefHeight="100.0" prefWidth="100.0" style="-fx-border-color: black; -fx-background-color: grey; -fx-background-radius: 20; -fx-border-radius: 20;">
+                           <children>
+                              <ImageView fitHeight="74.0" fitWidth="107.0" layoutX="13.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@resoruces/notification.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                        <Pane fx:id="panePower" layoutX="10.0" layoutY="122.0" prefHeight="100.0" prefWidth="100.0" style="-fx-border-color: black; -fx-background-color: grey; -fx-border-radius: 20; -fx-background-radius: 20;">
+                           <children>
+                              <ImageView fitHeight="92.0" fitWidth="117.0" layoutX="23.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@resoruces/power.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                        <Pane fx:id="paneFire" layoutX="9.0" layoutY="13.0" prefHeight="100.0" prefWidth="100.0" style="-fx-border-color: black; -fx-background-color: grey; -fx-background-radius: 20; -fx-border-radius: 20;">
+                           <children>
+                              <ImageView fitHeight="74.0" fitWidth="107.0" layoutX="13.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@resoruces/fire.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                     </children>
+                  </Pane>
+                  <Label layoutX="58.0" layoutY="192.0" text="ELEVATOR 2" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Black" size="21.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="18.0" layoutY="374.0" text="BUILDING STATUS" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Black" size="21.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+         </content>
+      </ScrollPane>
+      <AnchorPane layoutX="74.0" layoutY="52.0" maxHeight="1000.0" maxWidth="1000.0" minHeight="0.0" minWidth="0.0" prefHeight="674.0" prefWidth="534.0" style="-fx-background-color: lightgrey; -fx-background-radius: 40; -fx-border-radius: 40; -fx-border-color: black;" AnchorPane.leftAnchor="19.0" AnchorPane.rightAnchor="274.0">
+         <children>
+            <ScrollPane hmax="0.9" hvalue="8.0" layoutX="142.0" layoutY="2.0" prefHeight="671.0" prefWidth="641.0" vmax="0.0" AnchorPane.leftAnchor="78.0" AnchorPane.rightAnchor="110.0">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="670.0" prefWidth="991.0" style="-fx-background-color: lightgrey; -fx-border-color: lightgrey;">
+                     <children>
+                        <Pane layoutX="870.0" layoutY="-19.0" prefHeight="696.0" prefWidth="116.0">
+                           <children>
+                              <ImageView fitHeight="668.0" fitWidth="107.0" layoutX="1.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@resoruces/shaft.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fx:id="imgElevator1" fitHeight="86.0" fitWidth="71.0" layoutX="16.0" layoutY="565.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@resoruces/elevator.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                        <Pane layoutX="723.0" layoutY="-19.0" prefHeight="734.0" prefWidth="116.0">
+                           <children>
+                              <ImageView fitHeight="668.0" fitWidth="107.0" layoutX="1.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@resoruces/shaft.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fx:id="imgElevator2" fitHeight="86.0" fitWidth="71.0" layoutX="16.0" layoutY="565.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@resoruces/elevator.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                        <Pane layoutX="570.0" layoutY="-17.0" prefHeight="739.0" prefWidth="116.0">
+                           <children>
+                              <ImageView fitHeight="668.0" fitWidth="107.0" layoutX="1.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@resoruces/shaft.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fx:id="imgElevator11" fitHeight="86.0" fitWidth="71.0" layoutX="16.0" layoutY="565.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@resoruces/elevator.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                        <Pane layoutX="423.0" layoutY="-17.0" prefHeight="738.0" prefWidth="116.0">
+                           <children>
+                              <ImageView fitHeight="668.0" fitWidth="107.0" layoutX="1.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@resoruces/shaft.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fx:id="imgElevator21" fitHeight="86.0" fitWidth="71.0" layoutX="16.0" layoutY="565.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@resoruces/elevator.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                        <Label layoutX="883.0" layoutY="-11.0" text="E1" textFill="#aea3a3">
+                           <font>
+                              <Font name="Arial Black" size="54.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="731.0" layoutY="-11.0" text="E2" textFill="#aea3a3">
+                           <font>
+                              <Font name="Arial Black" size="54.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="579.0" layoutY="-11.0" text="E3" textFill="#aea3a3">
+                           <font>
+                              <Font name="Arial Black" size="54.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="429.0" layoutY="-12.0" text="E4" textFill="#aea3a3">
+                           <font>
+                              <Font name="Arial Black" size="54.0" />
+                           </font>
+                        </Label>
+                        <Pane layoutX="273.0" layoutY="-17.0" prefHeight="734.0" prefWidth="116.0">
+                           <children>
+                              <ImageView fitHeight="668.0" fitWidth="107.0" layoutX="1.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@resoruces/shaft.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fx:id="imgElevator22" fitHeight="86.0" fitWidth="71.0" layoutX="16.0" layoutY="565.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@resoruces/elevator.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                        <Pane layoutX="120.0" layoutY="-15.0" prefHeight="739.0" prefWidth="116.0">
+                           <children>
+                              <ImageView fitHeight="668.0" fitWidth="107.0" layoutX="1.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@resoruces/shaft.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fx:id="imgElevator111" fitHeight="86.0" fitWidth="71.0" layoutX="16.0" layoutY="565.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@resoruces/elevator.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                        <Label layoutX="280.0" layoutY="-12.0" text="E5" textFill="#aea3a3">
+                           <font>
+                              <Font name="Arial Black" size="54.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="130.0" layoutY="-13.0" text="E6" textFill="#aea3a3">
+                           <font>
+                              <Font name="Arial Black" size="54.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+              </content>
+            </ScrollPane>
+            <Pane layoutX="496.0" prefHeight="675.0" prefWidth="106.0" style="-fx-background-color: grey; -fx-background-radius: 30;" AnchorPane.rightAnchor="-15.0" />
+            <Pane layoutX="300.0" prefHeight="675.0" prefWidth="88.0" style="-fx-background-color: grey;" AnchorPane.rightAnchor="20.0">
+               <children>
+                  <Pane layoutX="35.0" layoutY="18.0" prefHeight="675.0" prefWidth="58.0">
+                     <children>
+                        <Pane layoutX="5.0" layoutY="155.0" prefHeight="73.0" prefWidth="44.0">
+                           <children>
+                              <Button layoutX="-2.0" layoutY="31.0" mnemonicParsing="false" onAction="#Fl5ExtDOWN" prefHeight="30.0" prefWidth="50.0" style="-fx-background-color: lightgrey;">
+                                 <graphic>
+                                    <ImageView fitHeight="28.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@resoruces/ArrowDown.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                              </Button>
+                              <Button layoutX="-2.0" layoutY="-1.0" mnemonicParsing="false" onAction="#Fl5ExtUP" prefHeight="30.0" prefWidth="50.0" style="-fx-background-color: lightgrey;">
+                                 <graphic>
+                                    <ImageView fitHeight="28.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@resoruces/Arrow.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                              </Button>
+                           </children>
+                        </Pane>
+                        <Pane layoutX="6.0" layoutY="67.0" prefHeight="48.0" prefWidth="41.0">
+                           <children>
+                              <Button layoutX="-1.0" layoutY="6.0" mnemonicParsing="false" onAction="#Fl6ExtDOWN" prefHeight="30.0" prefWidth="40.0" style="-fx-background-color: lightgrey;">
+                                 <graphic>
+                                    <ImageView fitHeight="28.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@resoruces/ArrowDown.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                              </Button>
+                           </children>
+                        </Pane>
+                        <Pane layoutX="6.0" layoutY="252.0" prefHeight="73.0" prefWidth="44.0">
+                           <children>
+                              <Button layoutX="-2.0" layoutY="31.0" mnemonicParsing="false" onAction="#Fl4ExtDOWN" prefHeight="30.0" prefWidth="50.0" style="-fx-background-color: lightgrey;">
+                                 <graphic>
+                                    <ImageView fitHeight="28.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@resoruces/ArrowDown.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                              </Button>
+                              <Button layoutX="-2.0" layoutY="-1.0" mnemonicParsing="false" onAction="#Fl4ExtUP" prefHeight="30.0" prefWidth="50.0" style="-fx-background-color: lightgrey;">
+                                 <graphic>
+                                    <ImageView fitHeight="28.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@resoruces/Arrow.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                              </Button>
+                           </children>
+                        </Pane>
+                        <Pane layoutX="7.0" layoutY="349.0" prefHeight="73.0" prefWidth="44.0">
+                           <children>
+                              <Button layoutX="-2.0" layoutY="31.0" mnemonicParsing="false" onAction="#Fl3ExtDOWN" prefHeight="30.0" prefWidth="50.0" style="-fx-background-color: lightgrey;">
+                                 <graphic>
+                                    <ImageView fitHeight="28.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@resoruces/ArrowDown.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                              </Button>
+                              <Button layoutX="-2.0" layoutY="-1.0" mnemonicParsing="false" onAction="#Fl3ExtUP" prefHeight="30.0" prefWidth="50.0" style="-fx-background-color: lightgrey;">
+                                 <graphic>
+                                    <ImageView fitHeight="28.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@resoruces/Arrow.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                              </Button>
+                           </children>
+                        </Pane>
+                        <Pane layoutX="6.0" layoutY="446.0" prefHeight="73.0" prefWidth="44.0">
+                           <children>
+                              <Button layoutX="-2.0" layoutY="31.0" mnemonicParsing="false" onAction="#Fl2ExtDOWN" prefHeight="30.0" prefWidth="50.0" style="-fx-background-color: lightgrey;">
+                                 <graphic>
+                                    <ImageView fitHeight="28.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@resoruces/ArrowDown.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                              </Button>
+                              <Button layoutX="-2.0" layoutY="-1.0" mnemonicParsing="false" onAction="#Fl2ExtUP" prefHeight="30.0" prefWidth="50.0" style="-fx-background-color: lightgrey;">
+                                 <graphic>
+                                    <ImageView fitHeight="28.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@resoruces/Arrow.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                              </Button>
+                           </children>
+                        </Pane>
+                        <Pane layoutX="8.0" layoutY="550.0" prefHeight="48.0" prefWidth="41.0">
+                           <children>
+                              <Button layoutX="-1.0" layoutY="6.0" mnemonicParsing="false" onAction="#Fl1ExtUP" prefHeight="30.0" prefWidth="40.0" style="-fx-background-color: lightgrey;">
+                                 <graphic>
+                                    <ImageView fitHeight="28.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@resoruces/Arrow.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                              </Button>
+                           </children>
+                        </Pane>
+                        <Label layoutX="-13.0" text="FLOOR" textFill="WHITE">
+                           <font>
+                              <Font name="Arial Black" size="21.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="-30.0" layoutY="24.0" text="BUTTONS" textFill="WHITE">
+                           <font>
+                              <Font name="Arial Black" size="21.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+               </children>
+            </Pane>
+            <Pane layoutX="13.0" prefHeight="660.0" prefWidth="86.0">
+               <children>
+                  <Label layoutX="14.0" layoutY="59.0" opacity="0.51" prefHeight="92.0" prefWidth="54.0" text="6">
+                     <font>
+                        <Font name="Arial Black" size="63.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="15.0" layoutY="163.0" opacity="0.51" prefHeight="92.0" prefWidth="54.0" text="5">
+                     <font>
+                        <Font name="Arial Black" size="63.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="16.0" layoutY="252.0" opacity="0.51" prefHeight="92.0" prefWidth="54.0" text="4">
+                     <font>
+                        <Font name="Arial Black" size="63.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="17.0" layoutY="347.0" opacity="0.51" prefHeight="92.0" prefWidth="54.0" text="3">
+                     <font>
+                        <Font name="Arial Black" size="63.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="16.0" layoutY="441.0" opacity="0.51" prefHeight="92.0" prefWidth="54.0" text="2">
+                     <font>
+                        <Font name="Arial Black" size="63.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="16.0" layoutY="537.0" opacity="0.51" prefHeight="92.0" prefWidth="54.0" text="1">
+                     <font>
+                        <Font name="Arial Black" size="63.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+         </children>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" />
+         </padding>
+      </AnchorPane>
+   </children>
+</AnchorPane>
